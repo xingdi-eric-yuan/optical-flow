@@ -1,4 +1,12 @@
 // Lucas & Kanade Optical Flow
+//
+// Author: Eric Yuan
+// Blog: http://eric-yuan.me
+// You are FREE to use the following code for ANY purpose.
+//
+// To run this code, you should have OpenCV in your computer.
+// Have fun with it.
+// 
 
 #include "opencv2/core/core.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
