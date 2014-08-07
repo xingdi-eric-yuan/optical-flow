@@ -188,8 +188,8 @@ void coarseToFineEstimation(Mat &img1, Mat &img2, Mat &u, Mat &v, int nLevels){
         Mat warped1, warped2;
         remap(pyr1[i - 1], warped1, map1, cv::Mat(), INTER_LINEAR);
         remap(pyr2[i - 1], warped2, map2, cv::Mat(), INTER_LINEAR);
-        warped1.copyTo(pyr1[i]);
-        warped2.copyTo(pyr2[i]);
+        warped1.copyTo(pyr1[i - 1]);
+        warped2.copyTo(pyr2[i - 1]);
     }
 }
 
